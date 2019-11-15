@@ -1,0 +1,20 @@
+{
+  "name": "node-lite",
+  "version": "1.0.0",
+  "description": "a light weight node api app template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node","api","service","postgres","sequelize","mvc"],
+  "author": "Kofi Cypher <skcypher6@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  }
+}
